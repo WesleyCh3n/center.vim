@@ -1,3 +1,5 @@
+nnoremap <leader>c :call CenterToggle()<cr>\
+
 function! CenterToggle()
     if !exists("t:Centerenabled")
         let t:Centerenabled = 1
