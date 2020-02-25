@@ -1,4 +1,4 @@
-nnoremap <leader>c :call CenterToggle()<cr>\
+nnoremap <leader>c :call CenterToggle()<cr>
 
 function! CenterToggle()
     if !exists("t:Centerenabled")
